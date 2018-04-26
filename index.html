@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="x-dns-prefetch-control" content="on" />
+    <link rel="stylesheet" type="text/css" href="dist/css/gb.css">
+    <link rel="stylesheet" type="text/css" href="dist/css/index.css">
+</head>
+
+<body ontouchstart>
+    <div class="jumping_load" id="J_loadLayer">
+        <div class="center">
+            <div class="robot"></div>
+            <div class="process">
+                <div class="curr_process"></div>
+            </div>
+        </div>
+    </div>
+    <!-- S 游戏开始 -->
+    <!-- 显示: in、隐藏：out  -->
+    <div class="jumping_start"id="J_Layer">
+        <div class="jumping_alert out" id="J_startLayer">
+            <div class="jumping_alert_inner">
+                <div class="jumping_alert_tip">
+                    <span class="jumping_alert_tip_arrow"></span>
+                    <span class="jumping_alert_tip_arrow type_right"></span>
+                </div>
+                <p class="jumping_alert_desc">左右点击跳跃，避开障碍物</p>
+                <div class="jumping_alert_btn" id="J_startBtn">Start</div>
+            </div>
+        </div>
+    </div>
+    <!-- E 游戏开始 -->
+
+    <!-- S 游戏结束 -->
+    <!-- 显示: in、隐藏：out  -->
+    <div class="jumping_alert out" id="J_restarLayer">
+        <div class="jumping_alert_inner">
+            <p class="jumping_alert_text">游戏结束</p>
+            <div class="jumping_alert_btn" id="J_restartBtn">Restart</div>
+        </div>
+    </div>
+    <!-- E 游戏结束 -->
+
+    <!-- S 主舞台 -->
+    <div class="jumping_game" id="phaser">
+        <div class="score">0</div>
+    </div>
+</body>
+<script type="text/javascript" src="dist/js/Phaser.js"></script>
+<script type="text/javascript" src="dist/js/main.js"></script>
+</html>

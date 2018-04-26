@@ -1,0 +1,142 @@
+{
+    "frames": [
+        {
+            "filename": "stone.png",
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 148,
+                "h": 125
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 148,
+                "h": 125
+            },
+            "sourceSize": {
+                "w": 148,
+                "h": 125
+            }
+        },
+        {
+            "filename": "flag1.png",
+            "frame": {
+                "x": 0,
+                "y": 125,
+                "w": 148,
+                "h": 143
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 125,
+                "w": 148,
+                "h": 125
+            },
+            "sourceSize": {
+                "w": 148,
+                "h": 125
+            }
+        },
+        {
+            "filename": "flag2.png",
+            "frame": {
+                "x": 175,
+                "y": 125,
+                "w": 148,
+                "h": 143
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 175,
+                "y": 125,
+                "w": 148,
+                "h": 125
+            },
+            "sourceSize": {
+                "w": 148,
+                "h": 125
+            }
+        },
+        {
+            "filename": "flag3.png",
+            "frame": {
+                "x": 350,
+                "y": 125,
+                "w": 148,
+                "h": 143
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 350,
+                "y": 125,
+                "w": 148,
+                "h": 125
+            },
+            "sourceSize": {
+                "w": 148,
+                "h": 125
+            }
+        },
+        {
+            "filename": "flag4.png",
+            "frame": {
+                "x": 514,
+                "y": 125,
+                "w": 148,
+                "h": 143
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 514,
+                "y": 125,
+                "w": 148,
+                "h": 125
+            },
+            "sourceSize": {
+                "w": 148,
+                "h": 125
+            }
+        },
+        {
+            "filename": "flag5.png",
+            "frame": {
+                "x": 702,
+                "y": 125,
+                "w": 148,
+                "h": 143
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 702,
+                "y": 125,
+                "w": 148,
+                "h": 125
+            },
+            "sourceSize": {
+                "w": 148,
+                "h": 125
+            }
+        }
+    ],
+    "meta": {
+        "app": "http://www.texturepacker.com",
+        "version": "1.0",
+        "image": "spritestairs.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 850,
+            "h": 306
+        },
+        "scale": "1",
+        "smartupdate": "$TexturePacker:SmartUpdate:c510ff2f709e8d175b059cd1cbe64773$"
+    }
+}
